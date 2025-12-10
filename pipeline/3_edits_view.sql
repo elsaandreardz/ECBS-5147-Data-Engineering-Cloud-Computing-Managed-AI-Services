@@ -9,3 +9,4 @@ CREATE VIEW <username>.edits AS
         date,
         cast(from_iso8601_timestamp(retrieved_at) AS TIMESTAMP) as retrieved_at
     FROM <username>.raw_edits
+

@@ -12,3 +12,5 @@ CREATE EXTERNAL TABLE
     retrieved_at STRING)
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
 LOCATION 's3://<username>-wikidata/raw-edits/';
+
+
